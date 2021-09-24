@@ -1,0 +1,7 @@
+
+<div>
+  count: {{ (count$ | async)?.count }}
+
+  <button (click)="postCount(1)">+1</button>
+  <button (click)="postCount(10)">+10</button>
+</div>
